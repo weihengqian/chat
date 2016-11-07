@@ -26,20 +26,7 @@ window.onload=function(){
 		face.style['background-image']='url("img/'+num+'.jpg")';
 		
 	}
-	var messageForm=document.getElementById("message-form");
-	messageForm.onclick=function(){
-		console.log('clicked');
-	};
-	messageForm.onchange = function() {
-		console.log('changed!');
-	};
-	messageForm.onsubmit = function(evt) {
-		console.log('submit!');
-		evt.preventDefault();
-	}
-	messageForm.onkeyup = function() {
-		console.log('key up!');
-	}
+	
 	send.onclick=function(){
 		if(context.value==''){
 			alert('fuck you! say something!!');
